@@ -67,6 +67,7 @@
             this.date_birthday = new System.Windows.Forms.DateTimePicker();
             this.label9 = new System.Windows.Forms.Label();
             this.num_years_experience = new System.Windows.Forms.NumericUpDown();
+            this.label10 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -465,11 +466,21 @@
             this.num_years_experience.Size = new System.Drawing.Size(120, 20);
             this.num_years_experience.TabIndex = 13;
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(378, 210);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(41, 13);
+            this.label10.TabIndex = 14;
+            this.label10.Text = "label10";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.num_years_experience);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.groupBox4);
@@ -540,6 +551,7 @@
         private System.Windows.Forms.DateTimePicker date_power_discovery;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.NumericUpDown num_years_experience;
+        private System.Windows.Forms.Label label10;
     }
 }
 
