@@ -191,13 +191,16 @@ namespace HeroMaker
         {
             lbl_strength.Text = scroll_strength.Value.ToString();
         }
+        //------END--------- C# heromaker app 04 How to use scrollbars in Winforms -----------------------------------
 
+        //-------------- C# avatar maker app 07 How to use the color picker ----------------------------------------------
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
+        //-------------- C# avatar maker app 07 How to use the color picker ----------------------------------------------
 
-        //------END--------- C# heromaker app 04 How to use scrollbars in Winforms -----------------------------------
+
 
         //------END---------- C# avatar maker app 01 How to use checkboxes tutorial -----------------------------
     }
