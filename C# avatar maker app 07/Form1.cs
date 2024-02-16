@@ -170,6 +170,10 @@ namespace HeroMaker
             status_message += " \nYears experience: " + years_experience;
             //-----END-------- C# avatar maker app 06 How to use a number picker ------------------------------------------------
 
+            //-----START------- C# avatar maker app 07 How to use the color picker ----------------------------------------------
+            status_message += "\nThe cape color for your hero is " + pic_cape_color.BackColor.ToString();
+            //-----END------- C# avatar maker app 07 How to use the color picker ----------------------------------------------
+
             //------START---------- C# avatar maker app 01 How to use checkboxes tutorial -----------------------------
             MessageBox.Show(status_message);
             //------END---------- C# avatar maker app 01 How to use checkboxes tutorial -----------------------------
@@ -193,12 +197,17 @@ namespace HeroMaker
         }
         //------END--------- C# heromaker app 04 How to use scrollbars in Winforms -----------------------------------
 
-        //-------------- C# avatar maker app 07 How to use the color picker ----------------------------------------------
+        //-----START------- C# avatar maker app 07 How to use the color picker ----------------------------------------------
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+            ColorDialog colorPicker = new ColorDialog();
 
+            if(colorPicker.ShowDialog() == DialogResult.OK)
+            {
+                pic_cape_color.BackColor = colorPicker.Color;
+            }
         }
-        //-------------- C# avatar maker app 07 How to use the color picker ----------------------------------------------
+        //------END------- C# avatar maker app 07 How to use the color picker ----------------------------------------------
 
 
 
