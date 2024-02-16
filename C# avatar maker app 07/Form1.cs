@@ -38,6 +38,11 @@ using System.Windows.Forms;
 
 // label, numericalUpDown(name:num_year_experience), \n
 
+//-------------- C# avatar maker app 07 How to use the color picker ----------------------------------------------
+//ref link:https://www.youtube.com/watch?v=_XBet_gEycg&list=PLhPyEFL5u-i2w2fa7ErcbkbEkjqLh7Io1&index=11
+
+// label(Cape Color), pictureBox, 
+
 namespace HeroMaker
 {
     public partial class Form1 : Form
@@ -185,6 +190,11 @@ namespace HeroMaker
         private void scroll_strength_Scroll(object sender, ScrollEventArgs e)
         {
             lbl_strength.Text = scroll_strength.Value.ToString();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
 
         //------END--------- C# heromaker app 04 How to use scrollbars in Winforms -----------------------------------
