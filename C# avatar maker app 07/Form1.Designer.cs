@@ -471,9 +471,9 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(378, 210);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(41, 13);
+            this.label10.Size = new System.Drawing.Size(59, 13);
             this.label10.TabIndex = 14;
-            this.label10.Text = "label10";
+            this.label10.Text = "Cape Color";
             // 
             // Form1
             // 
